@@ -1,7 +1,7 @@
 name: pitscher
 title: PITSCHER
-url: astreinerbaum.github.io/0ld_blog
-baseurl: /
+url: astreinerbaum.github.io
+baseurl: /0ld_blog
 
 permalink: /:categories/:title
 relative_permalinks: false

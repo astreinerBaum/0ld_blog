@@ -9,13 +9,13 @@
     {% if site.loadCSS_js %}
     <script>
         {% include loadcss.min.js %}
-        loadCSS("/0ld_blog/{{ site.assets.css }}{{ site.name }}.css")
+        loadCSS("{{ site.assets.css }}{{ site.name }}.css")
     </script>
     <noscript>
-        <link rel="stylesheet" href="/0ld_blog/{{ site.assets.css }}{{ site.name }}.css">
+        <link rel="stylesheet" href="{{ site.assets.css }}{{ site.name }}.css">
     </noscript>
     {% else %}
-        <link rel="stylesheet" href="/0ld_blog/{{ site.assets.css }}{{ site.name }}.css">
+        <link rel="stylesheet" href="{{ site.assets.css }}{{ site.name }}.css">
     {% endif %}
 
     {% if page.processing == true %}
@@ -24,7 +24,7 @@
     <!--    Load fonts from "brick.im" -->
     <link rel="stylesheet" href="//brick.a.ssl.fastly.net/Lato: 300,300i,400,400i,600,600i/Inconsolata:500">
 
-    <link rel="icon" href="/0ld_blog/img/icon.png">
-    <link rel="icon" href="/0ld_blog/img/icon.svg" sizes="any" type="image/svg+xml">
-    <link rel="apple-touch-icon-precomposed" href="/0ld_blog/img/icon.png">
+    <link rel="icon" href="/img/icon.png">
+    <link rel="icon" href="/img/icon.svg" sizes="any" type="image/svg+xml">
+    <link rel="apple-touch-icon-precomposed" href="/img/icon.png">
 </head>
