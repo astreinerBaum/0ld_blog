@@ -2,27 +2,35 @@
 title: about Art, Internet & himself
 layout: default
 ---
-<h1 class="broken">This site is currently in a transition phase. But here is a collection of links instead</h1>
+<h1 class="title-light">Posts</h1>
 
+{% assign posts = site.posts | where:"lang","en" %}
 
 <ul class="post-list">
-	<h2>Kanäle</h2>
-	<a href="https://www.facebook.com/Pi43r/">facebook</a>
-	<a href="https://vimeo.com/pitscher">vimeo</a>
-	<a href="https://www.youtube.com/channel/UCt0QtRCTdKHutCpFIUO93Pg">youtube</a>
-	<a href="https://www.flickr.com/photos/branchfree/">flickr</a>
-	<a href="https://www.instagram.com/pitscher/">instagram</a>
-	<a href="http://pitscher.tumblr.com/">tumblr</a>
+{% for post in posts limit:site.max_posts %}
+    <li>
+        <ul class="meta-list">
+            <li>
+                {% include _date.html date=post.date %}
+            </li>
 
+            {% for tag in post.tags %}
+            <li><a href="{{ site.baseurl }}/en/tags#{{ tag }}">{{ tag }}</a></li>
+            {% endfor %}
+        </ul>
 
-	<h2>Experimente</h2>
-	<li>
-		<a href="../Ants.html">Ants</a>
-		<a href="../balls.html">Balls</a>
-		<a href="../blockfont.html">Block Font</a>
-		<a href="../letter.html">mM</a>
-		<a href="../noredo.html">NoRedo</a>
-		<a href="../empty.txt">empty.txt</a>
-		<a href="../squares.html">Squares</a>
-	</li>
+        <h2><a class="index-title" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+
+        {% if post.thumbnail.url %}
+            <p><img src="{{ site.baseurl }}{{ post.thumbnail.url }}" alt="{{ post.title }}" width="{{ post.thumbnail.width }}" height="{{ post.thumbnail.height }}"></p>
+        {% else %}
+            {{ post.excerpt }}
+        {% endif %}
+        <a href="{{ site.baseurl }}{{ post.url }}">...read more</a>
+    </li>
+{% endfor %}
 </ul>
+
+{% if posts.size > site.max_posts %}
+<a href="{{ site.baseurl }}/en/archive" class="island">See all posts in the archive</a>
+{% endif %}

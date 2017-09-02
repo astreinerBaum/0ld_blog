@@ -7,16 +7,16 @@ layout: compress
     <header class="site-head">
     <div class="wrapper">
 
-        <a  href="{{ site.data.locales[page.lang].url }}" class="site-title">PITSCHER</a>
+        <a  href="{{ site.baseurl }}{{ site.data.locales[page.lang].url }}" class="site-title">PITSCHER</a>
 
         <nav class="site-nav">
             {% for link in site.data.locales[page.lang].nav %}
-            <a class="site-nav__item" href="{{ link.url }}">{{ link.text }}</a>
+            <a class="site-nav__item" href="{{ site.baseurl }}{{ link.url }}">{{ link.text }}</a>
             {% endfor %}
-            <a href="{{ site.data.locales[page.lang].other-lang-url }}" class="site-nav__item__lang">
+            <a href="{{ site.baseurl }}{{ site.data.locales[page.lang].other-lang-url }}" class="site-nav__item__lang">
                 | {{ site.data.locales[page.lang].other-lang-text }}
             </a>
-     
+
         </nav>
         </div>
     </header>

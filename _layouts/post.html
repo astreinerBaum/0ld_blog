@@ -15,9 +15,9 @@ disqus: true
 
         {% for tag in page.tags %}
             {% if page.lang == "en" %}
-            <li><a href="/en/tags#{{ tag }}">{{ tag }}</a></li>
+            <li><a href="{{ site.baseurl }}/en/tags#{{ tag }}">{{ tag }}</a></li>
             {% else %}
-            <li><a href="/tags#{{ tag }}">{{ tag }}</a></li>
+            <li><a href="{{ site.baseurl }}/tags#{{ tag }}">{{ tag }}</a></li>
             {% endif %}
 
         {% endfor %}
@@ -54,10 +54,3 @@ disqus: true
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 
     {% endif %}
-
-
-
-
-
-
-

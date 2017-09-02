@@ -1,7 +1,7 @@
 ---
 Date: 2015-03-23 17:58
 Title: Posterdesign for Exhibitions
-tags: 
+tags:
 - design
 ---
 Today we printed some posters I designed for a group show, so I take some time to write about making posters for exhibitions. Like every event, exhibitions need some kind of advertisement, too. In November 2014 I already worked on the design for *Preis der Medienkunst 2014* (Media Art award 2014) and now for the upcoming group show in Belfast *Orpheus B*
@@ -11,7 +11,7 @@ Today we printed some posters I designed for a group show, so I take some time t
 
 The Media Art Award is a yearly Exhibition with a prize money of 3000€ for the best student works in the course Media Art & Design at the Bauhaus University. Nominated are 8 degree works, selected by each chair.  
 The professorships are:
- 
+
 * Documentary and Experimental Film
 * Electro-acoustic Composition and Sound Design
 * Experimental Radio
@@ -27,8 +27,8 @@ In our first group discussion we decided to call the exhibition "Preis der Medie
 Euginio, one of the italian erasmus students, was working on the model. First he made prototypes by cutting potatoes, then modeled it in 3D programm and printed and folded the final sculpture. It was very hard for him to make an irregular and nice looking octahedron. The result reminded me on a handaxe from ancient times, which was the first human tool. (I love that analogy)  
 I took the 3D model and created a two dimensional poster out of. My first draft was quite colorful and it kind of makes me think of a detergent product. Then it got more and more minimalistic after time. I had a lot of skype calls with [Gunnar Green](http://thegreeneyl.com) and after every call I worked on smaller details in typography and the layout. In the end I am really proud of the finished version, even though I wanted to print it with white color on black paper, but made it Offset.
 
------------- | ------------- 
-<img src="/img/preis_der_medien_first.png" alt="Preis der Medienkunst - Erster Entwurf"> | <img src="/img/preis_der_medienkunst_final.png" alt="Preis der Medienkunst - Final"> 
+------------ | -------------
+<img src="{{ site.baseurl }}/img/preis_der_medien_first.png" alt="Preis der Medienkunst - Erster Entwurf"> | <img src="{{ site.baseurl }}/img/preis_der_medienkunst_final.png" alt="Preis der Medienkunst - Final">
 <sup>Erster Entwurf</sup>| <sup>Finale Printausgabe</sup>  
 
 
@@ -41,16 +41,16 @@ I was working together with [Dan Moxham](https://danmoxham.wordpress.com/) on th
 
 Orpheus was a singer and poet in greek mythology and when he sang all the wild animals would piecefully sit around him and even the stones started crying. He could even convince Hades in the underworld to release his wife Eurydice. That's how good he was. Hades told him not to look back on the way out and after a while Orpheus could'nt hear the footsteps of his wife, so he glimpsed back and she was sent back to hell. After that tragic moment he put his back to all women. (some said he made love with young boys, though) The only person not on Orpheus friendlist was Dyonisos, the god wine, ritual madness, fertility, theatre and religious ecstasy. So a group of Bacchantes---mad drinking women, celebrating orgies to worship Dyonisos---went after Orpheus and chopped his head of and threw it in the river Hebros. His head eventually got to the island Lesbos, still singing (of course this badass is immortal) until Apollo told him to shut the fu*k up.  
 That's why I was looking for an creative commons painting I could redesign to use it as our poster and I found a painting by [Gregorio Lazzarini ](http://worldsofimagination.co.uk/spell%20Mindless%20Rage.htm), where the Bacchantes are just about to remove Orpheus' head from his shoulders.  
-  
-<img src="/img/Orpheus_bw.png" alt="black and white painting">  
+
+<img src="{{ site.baseurl }}/img/Orpheus_bw.png" alt="black and white painting">  
 <sup>Rejected poster idea using only black and white pixels</sup>
-<img src="/img/Orpheus_pixelated.png" alt="pixelated painting">
+<img src="{{ site.baseurl }}/img/Orpheus_pixelated.png" alt="pixelated painting">
 <sup> Pixelated image of Lazzarinis painting used for a Poster </sup>  
 
 Unfortunately not alot of people liked the painting as much as I did, so we democratically decided to make the iconized falling building instead. While I was working on Photoshop, Dan told me what to change and what to keep. I wanted to see how different types of CMYK pink would look like as the background and Dan told me to keep it that way. So we ended upper with a full colorpallet of pink and green and I love it. The A6 Flyers look amazing!  
-  
+
 <center>
-<img src="/img/orpheusB_poster.png" width="500" alt="final result of Orpheus B Poster">  
+<img src="{{ site.baseurl }}/img/orpheusB_poster.png" width="500" alt="final result of Orpheus B Poster">  
 <br>
-<sup> Final version -- Iconized falling building with green B-Floor</sup> 
+<sup> Final version -- Iconized falling building with green B-Floor</sup>
 </center>
